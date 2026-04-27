@@ -393,7 +393,7 @@ function Contact() {
 
         <div className="mt-8 flex flex-wrap gap-4">
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:ainsleyrlofters@gmail.com"
             className="rounded-full bg-blue-500 px-6 py-3 font-semibold text-white hover:bg-blue-400"
           >
             Email Me
