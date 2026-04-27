@@ -263,8 +263,8 @@ function Contact() {
         </p>
 
         <div className="space-y-4 text-slate-300">
-          <p><strong className="text-white">Email:</strong> your-email@example.com</p>
-          <p><strong className="text-white">LinkedIn:</strong> https://www.linkedin.com/in/your-profile</p>
+          <p><strong className="text-white">Email:</strong> ainsleyrlofters@gmail.com</p>
+          <p><strong className="text-white">LinkedIn:</strong> https://www.linkedin.com/in/alofters</p>
         </div>
 
         <div className="mt-8 flex flex-wrap gap-4">
