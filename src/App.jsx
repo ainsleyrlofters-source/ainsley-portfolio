@@ -126,7 +126,7 @@ function About() {
         </p>
 
         <h1 className="mb-6 text-4xl font-bold text-slate-950">
-          Director Level technology leader with deep enterprise infrastructure experience.
+          Director-Level technology leader with deep enterprise infrastructure experience.
         </h1>
 
         <p className="mb-6 text-lg leading-8 text-slate-700">
@@ -189,6 +189,8 @@ function Resume() {
           </a>
         </div>
 
+     
+
         {/* PROFESSIONAL SUMMARY (TEXT) */}
         <div className="mb-6 rounded-3xl bg-white p-8 shadow">
           <h2 className="mb-4 text-2xl font-bold">Professional Summary</h2>
@@ -200,6 +202,7 @@ function Resume() {
             mission-critical operations.
           </p>
         </div>
+      
 
         <div className="mb-6 rounded-3xl bg-white p-8 shadow">
   <h2 className="mb-4 text-2xl font-bold">Key Experience</h2>
@@ -292,7 +295,7 @@ efficiency, improving asset tracking, and ensuring timely availability of critic
 </div>
 
         {/* TECHNOLOGY (OPTIONAL BULLETS) */}
-        <div className="rounded-3xl bg-white p-8 shadow">
+        <div className="mb-6 rounded-3xl bg-white p-8 shadow">
           <h2 className="mb-4 text-2xl font-bold">Technology Expertise</h2>
           <ul className="list-disc space-y-2 pl-5 text-slate-700">
             <li>AWS (Solutions Architect knowledge)</li>
