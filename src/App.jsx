@@ -126,7 +126,7 @@ function About() {
         </p>
 
         <h1 className="mb-6 text-4xl font-bold text-slate-950">
-          Senior technology leader with deep enterprise infrastructure experience.
+          Director Level technology leader with deep enterprise infrastructure experience.
         </h1>
 
         <p className="mb-6 text-lg leading-8 text-slate-700">
@@ -166,7 +166,8 @@ function Resume() {
   return (
     <main className="bg-slate-50 px-6 py-20">
       <section className="mx-auto max-w-5xl">
-        <div className="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+
+        <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-600">
               Resume
@@ -180,31 +181,151 @@ function Resume() {
           </div>
 
           <a
-            href={resumeFile}
+            href="/Ainsley-Lofters-Resume.pdf"
             download
-            className="rounded-full bg-blue-600 px-6 py-3 text-center font-semibold text-white shadow-lg shadow-blue-500/20 hover:bg-blue-500"
+            className="rounded-full bg-blue-600 px-6 py-3 font-semibold text-white shadow-lg hover:bg-blue-500"
           >
             Download Resume
           </a>
         </div>
 
-        <div className="space-y-6">
-          {[
-            ["Professional Summary", "Senior IT leader with 30+ years of experience designing, leading, and delivering enterprise technology solutions across complex multi-site environments."],
-            ["Key Experience", "Led enterprise infrastructure migrations, Cisco PBX modernization, CyberArk PAM deployment, vendor management, and mission-critical IT operations."],
-            ["Technology Areas", "AWS, CyberArk, Cisco, Avaya, Microsoft, VMware, Unified Communications, Networking, Cloud Infrastructure, Security, Disaster Recovery, and Enterprise Operations."]
-          ].map(([title, text]) => (
-            <div key={title} className="rounded-3xl bg-white p-8 shadow-xl shadow-slate-200">
-              <h2 className="mb-3 text-2xl font-bold text-slate-950">{title}</h2>
-              <p className="leading-8 text-slate-700">{text}</p>
-            </div>
-          ))}
+        {/* PROFESSIONAL SUMMARY (TEXT) */}
+        <div className="mb-6 rounded-3xl bg-white p-8 shadow">
+          <h2 className="mb-4 text-2xl font-bold">Professional Summary</h2>
+          <p className="leading-8 text-slate-700">
+            Innovative and results-driven information technology (IT) leader with more than two decades of experience 
+            across global, multi-site environments. Expertise in implementation of solutions architecture and 
+            cybersecurity management. Proven track record of delivering scalable, secure, and business-aligned solutions.
+            Technology professional who is excellent at recognizing opportunities and establishing seamless and cost-effective
+            mission-critical operations.
+          </p>
         </div>
+
+        <div className="mb-6 rounded-3xl bg-white p-8 shadow">
+  <h2 className="mb-4 text-2xl font-bold">Key Experience</h2>
+
+  <div className="space-y-6 text-slate-700">
+
+    {/* JOB 1 */}
+    <div>
+      <p className="font-semibold text-slate-900">
+        Sr. Solutions Architect – IT | Playa Hotels & Resorts | Aug 2022 - Present
+      </p>
+      <ul className="list-disc space-y-2 pl-6 mt-2">
+        <li>Oversees enterprise architecture strategy across global environments including Mexico, Dominican Republic, and Jamaica regions</li>
+        <li>Led enterprise-wide IT transition during ownership change of 15 Playa Hotels & Resorts to Hyatt
+Inclusive Collections, successfully migrating critical infrastructure, systems, and data within an
+accelerated 1-year timeline and uninterrupted operations</li>
+        <li>Architected and deployed enterprise CyberArk Privileged Access Management across international
+environments, strengthening privileged account security, reducing organizational risk exposure, and
+enabling SOC 2 compliance for critical enterprise systems</li>
+        <li>Leads the architecture and delivery of scalable infrastructure, cloud, cybersecurity, and unified
+communications solutions across global environments, driving performance optimization,
+strengthening security posture, and enabling business growth</li>
+        <li>Leads end-to-end delivery of enterprise solutions from architecture design and proof of concept
+through testing, training, and large-scale deployment, ensuring successful execution, minimizing
+operational disruption, and accelerating time-to-value</li>
+        <li>Ensures high availability, performance optimization, and SOC 2 compliance</li>
+        <li>Partners with executive leadership and vendors to modernize platforms</li>
+      </ul>
+    </div>
+
+    {/* JOB 2 */}
+    <div>
+      <p className="font-semibold text-slate-900">
+        Senior Telecommunications Engineer | Brookfield Hospitality | Jan 2019 - Aug 2022</p>
+      <p className="font-semibold text-slate-900">
+        Telecommunications Engineer | Brookfield Hospitality | Apr 2012 - Jan 2019 </p>
+      <ul className="list-disc space-y-2 pl-6 mt-2">
+        <li>Directed enterprise infrastructure and systems transition during the ownership change of Atlantis
+Hotel & Casino, delivering full technology migration in under 90 days while maintaining
+uninterrupted operations across guest services, resort systems, and corporate infrastructure</li>
+        <li>Designed and delivered scalable, high-availability technology solutions across unified
+communications, cloud infrastructure, and cybersecurity to support business growth and operational
+resilience</li>
+        <li>Directed the architecture and optimization of enterprise communication platforms, including Cisco
+and Avaya PBX systems supporting 8,000+ phone endpoints and a 1,000+ device radio network
+across U.S. and Bahamas operations, ensuring high availability, minimizing downtime, and enabling
+real-time coordination for mission-critical operations including security, guest services, and
+emergency response</li>
+        <li>Directed the administration and optimization of SIP, PRI, and VoIP infrastructure and Unified
+Communications platforms (Microsoft Teams, Zoom, WebEx), enhancing enterprise-wide
+collaboration, improving system reliability, and global communications</li>
+        <li>Directed the management of Motorola radio systems and enterprise audio-visual infrastructure,
+enabling real-time communication for security, guest services, and operational teams while ensuring
+high availability across mission-critical environments</li>
+        <li>Led cross-regional IT teams and strategic vendor partnerships across U.S. and Bahamas operations,
+driving service reliability, optimizing operational performance, and ensuring successful delivery of
+enterprise-wide technology initiatives</li>
+        <li>Led the design and implementation of enterprise disaster recovery and business continuity strategies
+while ensuring SOC 2 compliance, strengthening security posture, minimizing risk exposure, and
+ensuring resilience across mission-critical global operations</li>
+        <li>Managed enterprise telecom systems including PBX, VoIP, and cloud call centers</li>
+        <li>Administered Motorola radios, Brocade switches, and mobile device platforms</li>
+        <li>Supported UC platforms (Teams, Zoom, WebEx)</li>
+        <li>Drove high availability of enterprise systems across U.S. and The Bahamas operations by optimizing
+infrastructure performance and resilience, minimizing downtime and ensuring uninterrupted support
+of mission-critical business functions</li>
+      </ul>
+    </div>
+
+
+    {/* JOB 3 */}
+    <div>
+      <p className="font-semibold text-slate-900">
+        Field Service Technician | Kerzner International | Jan 2006 - Apr 2012</p>
+      <p className="font-semibold text-slate-900">
+        IT Buyer | Kerzner International | Jan 2004 - Jan 2006
+      </p>
+      <ul className="list-disc space-y-2 pl-6 mt-2">
+        <li>Delivered desktop and server support across enterprise environments, resolving technical issues to
+ensure system stability and support uninterrupted business operations</li>
+        <li>Designed and implemented standardized system imaging processes for large-scale enterprise
+deployments, improving efficiency, ensuring system consistency, and supporting scalable technology
+rollouts</li>
+        <li>Directed procurement, inventory management, and lifecycle of enterprise IT assets, optimizing cost
+efficiency, improving asset tracking, and ensuring timely availability of critical resources</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+        {/* TECHNOLOGY (OPTIONAL BULLETS) */}
+        <div className="rounded-3xl bg-white p-8 shadow">
+          <h2 className="mb-4 text-2xl font-bold">Technology Expertise</h2>
+          <ul className="list-disc space-y-2 pl-5 text-slate-700">
+            <li>AWS (Solutions Architect knowledge)</li>
+            <li>CyberArk Privileged Access Management</li>
+            <li>Cisco & Avaya Unified Communications</li>
+            <li>Enterprise Networking & Infrastructure</li>
+            <li>Cloud Architecture & Security</li>
+            <li>Disaster Recovery & High Availability</li>
+            <li>Digital Transformation</li>
+            <li>Cybersecurity & PAM (CyberArk)</li>
+            <li>High-Availability Architecture</li>
+            <li>Unified Communications</li>
+            <li>Enterprise Integrations</li>
+            <li>Vendor Management</li>
+            <li>VoIP & PBX Architecture (Cisco/Avaya/Alcatel/Mitel)</li>
+          </ul>
+        </div>
+      
+
+        {/* EDUCATION (TEXT) */}
+        <div className="mb-6 rounded-3xl bg-white p-8 shadow">
+        <h2 className="mb-4 text-2xl font-bold">Education & Certification</h2>
+        <p className="font-semibold text-slate-900">
+        Coursework | Broward College | Fort Lauderdale, Florida</p>
+      <p className="font-semibold text-slate-900">
+        Solutions Architect | Amazon Web Services (AWS) | In Progress
+      </p>
+        </div>
+
       </section>
     </main>
   );
 }
-
 function Projects() {
   const projects = [
     {
@@ -212,7 +333,7 @@ function Projects() {
       text: "Built and supported a multi-site privileged access management program to strengthen security, improve access control, and support compliance objectives."
     },
     {
-      title: "Cisco PBX Modernization",
+      title: "PBX & Call Center Modernization",
       text: "Migrated legacy Nortel PBX environments to modern Cisco platforms while protecting uptime across business-critical hospitality operations."
     },
     {
